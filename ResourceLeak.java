@@ -33,6 +33,8 @@ class ResourceLeak {
 
 		// EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK/no-detect
 		PrintWriter out = null;
+		
+		
 		try {
 			// EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK/no-detect
 			out = new PrintWriter(new File(""));
