@@ -176,6 +176,8 @@ class ResourceLeak {
                     return true;
                 }
             }
+		
+		
         } catch (Throwable e) {
             throw closer.rethrow(e);
         } finally {
