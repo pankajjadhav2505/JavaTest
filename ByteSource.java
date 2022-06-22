@@ -78,6 +78,9 @@ import org.checkerframework.checker.nullness.qual.Nullable;
 public abstract class ByteSource {
 
   /** Constructor for use by subclasses. */
+  
+  
+  
   protected ByteSource() {}
 
   /**
