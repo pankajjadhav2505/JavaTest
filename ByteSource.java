@@ -79,8 +79,6 @@ public abstract class ByteSource {
 
   /** Constructor for use by subclasses. */
   
-  
-  
   protected ByteSource() {}
 
   /**
