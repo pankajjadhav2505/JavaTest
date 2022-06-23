@@ -17,6 +17,8 @@ class ResourceLeak {
 		try {
 			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("out.txt", true)));
 			out.println("the text");
+			
+			
 			// EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK
 			out.close();  //close() is in try clause
 
