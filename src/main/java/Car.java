@@ -8,6 +8,7 @@ public class Car {
         this.speed = speed;
     }  
     
+    
     public Car(){}
 
     public void applyBrake(int decrement)
