@@ -71,7 +71,9 @@ class ResourceLeak {
 					// EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK/no-detect
 					reader.close();
 				} catch (IOException e) {
-				} finally {
+				}catch (IOException e) {
+				} catch (IOException e) {
+				}  finally {
 
 				}
 			}
