@@ -4,6 +4,8 @@ public class BMW extends Car{
                  int startHeight)
     {
         super(gear, speed);
+
+        
         seatHeight = startHeight;
     }
 
