@@ -46,6 +46,8 @@ public class Category extends Vehicle implements NewInterface {
     }
 
     final String stringValue = "Welcome";
+    final String stringValue1 = "Welcome";
+    final String stringValue2 = "Welcome";
 
     String get_string() {
         for (; true; )
@@ -57,7 +59,12 @@ public class Category extends Vehicle implements NewInterface {
             this.x = x + 1;
         else
             this.x = x - 1;
-
+        System.out.println("X and Y are different");
+        if (true)
+            this.y = y + 1;
+        System.out.println("X and Y are different");
+        if (true)
+            this.y = y + 1;
         System.out.println("X and Y are different");
         return false;
     }
@@ -65,7 +72,7 @@ public class Category extends Vehicle implements NewInterface {
     public boolean same(int y) {
         if (true)
             this.y = y + 1;
-        System.out.println("X and Y are same");
+        
         return true;
     }
 
