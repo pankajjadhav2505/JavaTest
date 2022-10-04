@@ -3,6 +3,8 @@ import java.rmi.RemoteException;
 
 public class MyClass implements SessionBean {
 
+    
+    
     @Override
     public void setSessionContext(SessionContext sessionContext) throws EJBException, RemoteException {
 

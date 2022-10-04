@@ -79,8 +79,6 @@ public class Category extends Vehicle implements NewInterface {
     boolean bar(int x, int y) {
         return (x != y) ? diff(x) : same(y);
     }
-
-
     @Override
     public void remove(Object o) throws RemoveException, EJBException {
 
