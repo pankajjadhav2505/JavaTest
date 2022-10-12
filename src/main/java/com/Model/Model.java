@@ -14,6 +14,10 @@ public class Model {
     public static String Volkswagen= "Volkswagen";
     public static String Datsun= "Datsun";
 
+
+
+
+
     public Model(String nameOfEmployee, int empoyee_id, long salaryOfEmployee, Date joiningDateOfEmployee) {
         NameOfEmployee = nameOfEmployee;
         Empoyee_id = empoyee_id;
