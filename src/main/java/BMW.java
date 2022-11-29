@@ -17,6 +17,11 @@ public class BMW extends Car{
 
         }catch(Exception e){
         }
+        try{
+            int a=10;b=0;c=0;
+
+        }catch(Exception e){
+        }
     }
     public int getLength(String[] strings) {
 
