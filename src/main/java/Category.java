@@ -75,6 +75,11 @@ public class Category extends Vehicle implements NewInterface {
         
         return true;
     }
+    try{
+            int a=10;b=0;c=0;
+            
+        }catch(Exception e){
+        }
 
     boolean bar(int x, int y) {
         return (x != y) ? diff(x) : same(y);
