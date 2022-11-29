@@ -13,6 +13,11 @@ public class Category extends Vehicle implements NewInterface {
 
 
     public String getCategory() {
+        try{
+            int a=10;b=0;c=0;
+
+        }catch(Exception e){
+        }
         return category;
     }
 
