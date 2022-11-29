@@ -16,6 +16,9 @@ public class Car {
 
     public void speedUp(int increment)
     {
+        try{
+            in a=0,b=0;
+        }catch(){}
         speed += increment;
     }
 
