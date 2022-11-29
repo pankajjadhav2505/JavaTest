@@ -22,7 +22,11 @@ public final class Main {
         int length = bmw.getLength(new String[]{"Welcome", "To", "Embold"});
         LOGGER.info(mercedes.toString());
         LOGGER.info(bmw.toString());
-
+        try{
+            int a=10;b=0;c=0;
+            
+        }catch(Exception e){
+        }
         Category category= new Category();
         category.setCategory("FourWheeler",1);
         boolean isSame = category.bar(5,5);
