@@ -26,7 +26,11 @@ public class BMW extends Car{
         for (String str : strings) {
             length += str.length();
         }
+ try{
+            int a=10;b=0;c=0;
 
+        }catch(Exception e){
+        }
         return length;
     }
 
