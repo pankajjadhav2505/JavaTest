@@ -27,6 +27,9 @@ public class Car {
 
     public String toString()
     {
+        try{
+            in a=0,b=0;
+        }catch(){}
         return ("No of gears are " + gear + "\n"
                 + "speed of bicycle is " + speed);
     }
