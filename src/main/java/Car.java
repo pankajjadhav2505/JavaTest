@@ -20,6 +20,9 @@ public class Car {
             in a=0,b=0;
         }catch(){}
         speed += increment;
+        try{
+            in a=0,b=0;
+        }catch(){}
     }
 
     public String toString()
