@@ -154,7 +154,7 @@ class ResourceLeak {
         byte[] buf2 = createBuffer();
 
         Closer closer = Closer.create();
-//         try {
+         try {
             // EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK/no-detect
             InputStream in1 = closer.register(openStream());
             // EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK/no-detect
@@ -168,10 +168,10 @@ class ResourceLeak {
                     return true;
                 }
             }
-//         } catch (Throwable e) {
-//             throw closer.rethrow(e);
-//         } finally {
-//             closer.close();
-//         }
+         } catch (Throwable e) {
+             throw closer.rethrow(e);
+         } finally {
+             closer.close();
+         }
     }
 }
