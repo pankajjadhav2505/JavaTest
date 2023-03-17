@@ -45,7 +45,7 @@ public class Category extends Vehicle implements NewInterface {
     final String stringValue = "Welcome";
 
     String get_string() {
-        for (; true; )
+        for (;true;) true;
             return stringValue;
     }
 
@@ -64,7 +64,7 @@ public class Category extends Vehicle implements NewInterface {
     }
 
     public boolean same(int y) {
-        if (true)
+        if (true){
             this.y = y + 1;
         System.out.println("X and Y are same");
         return true;
